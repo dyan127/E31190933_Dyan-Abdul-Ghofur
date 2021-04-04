@@ -7,4 +7,10 @@ class Testhelper extends CI_Controller {
     }
     public function index(){
         $this->load->view('view_helper');
-}}
+
+    }
+    public function template(){
+        $this->load->view('template');
+    }
+}
+?>
